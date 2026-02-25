@@ -1,0 +1,29 @@
+.offer {
+    height: 100vh;
+    background: var(--gradient-main);
+
+    font-weight: 800;
+
+    * {
+        font-weight: 600;
+    }
+
+
+    &__content {
+        color: var(--color-white);
+        gap: var(--size-md);
+        justify-content: center;
+        height: 100%;
+        // position: absolute;
+
+        &.active {
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+
+    &__text {
+        font-size: var(--size-xs);
+    }
+
+}

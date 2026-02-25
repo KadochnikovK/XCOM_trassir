@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/plugins/swiper/swiper.css" />
+    <link rel="stylesheet" href="./assets/scss/animations/animations.css" />
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <link type="Image/x-icon" href="./assets/images/favicon.png" rel="icon" />
+
+    <script src="./assets/plugins/swiper/swiper.js"></script>
+    <script src="./assets/js/modal.js" defer></script>
+
+    <title>Промышленность 2026: Промышленность, точки роста и стабильности</title>
+  </head>
+
+  <body>
+    <header class="header container">
+      <div class="header__content content">
+        <div class="header__item">
+          <a href="https://www.xcom.ru/" class="logo">
+            <img class="logo__img" src="./assets/images/logo.svg" alt="XCOM" />
+            <img class="logo__img" src="./assets/images/logo-trassir.svg" style="transform: translateY(-10%)" alt="TRASSIR" />
+          </a>
+          <nav class="header__menu">
+            <a href="#keytopics" class="header__link">Ключевые темы</a>
+            <a href="#speakers" class="header__link">Спикеры</a>
+            <a href="#contacts" class="header__link">Регистрация</a>
+          </nav>
+        </div>
+
+        <div class="header__item">
+          <div class="header__hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="offer container">
+        <div class="content offer__content">
+          <h1 class="headline headline--light offer__headline hyphenate">Вебинар</h1>
+
+          <div class="offer__text">TRASSIR для госсектора: ваши клиенты останутся довольны</div>
+          <div class="date">
+            <div class="date__item">4 марта</div>
+            <div class="date__item">2026</div>
+            <div class="date__item">14:00</div>
+          </div>
+          <a href="#registration" class="button">
+            <span class="button__text">Принять участие</span>
+          </a>
+        </div>
+        <canvas class="backgroundCanvas" id="backgroundCanvas"></canvas>
+      </section>
+      <section class="container description">
+        <div class="content description__content">
+          <div class="description__text">
+            Развеем сомнения госзаказчиков в импортозамещении. Приходите на встречу с TRASSIR, чтобы получить готовые аргументы для обоснования выгоды и надежности российского оборудования перед
+            руководством
+          </div>
+          <!-- <div class="double-arrow"></div> -->
+        </div>
+      </section>
+      <a id="keytopics"></a>
+      <section class="container container--background">
+        <div class="content list list--mobile">
+          <div class="headgroup__label">О чем будем говориить на вебинаре</div>
+          <div class="list__content list__content--row" style="gap: var(--size-sm)">
+            <div class="list__header" style="flex-basis: auto">
+              <div class="headgroup">
+                <img src="assets/images/double-arrow.svg" style="max-width: 10vw" alt="" />
+              </div>
+            </div>
+            <div class="list__items" style="flex-basis: 100%">
+              <div class="list__item list__item--thin line-bottom">Русскоязычный интерфейс — понятная документация, обучение и техподдержка делают внедрение предсказуемым</div>
+              <div class="list__item list__item--thin line-bottom">Аналитика без переплат — объясним, где нужны камеры с аналитикой, а где эффективнее аналитика на регистраторе</div>
+              <div class="list__item list__item--thin line-bottom">
+                Реальное импортозамещение — не просто СТ-1, а совместимость с Astra Linux, ЕЦХД и бесплатные лицензии, снижающие стоимость владения
+              </div>
+              <div class="list__item list__item--thin line-bottom">Единая СКУД — бесшовная экосистема: шлагбаумы, турникеты, считыватели без интеграций с разными вендорами</div>
+              <div class="list__item list__item--thin line-bottom">Поддержка 24/7 — техподдержка и обучение, когда это действительно нужно</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a id="terms"></a>
+      <section class="container line-bottom">
+        <div class="content list">
+          <div class="list__content">
+            <div class="list__header">
+              <div class="headgroup">
+                <div class="headgroup__label">Кому стоит посетить вебинар</div>
+              </div>
+            </div>
+            <div class="list__items list__items--background" style="padding: var(--size-sm)">
+              <div class="list__item list__item--small list__item--column" style="border: none; padding: 0">
+                <span class="color color--grey">(01)</span>
+                Руководителям и техническим специалистам организаций, которые работают с госзаказчиками или планируют выходить на госпроекты. Тем, кто устал объяснять, почему российское — это тоже
+                качественно
+              </div>
+            </div>
+          </div>
+          <div class="headgroup__headline margin-top-sm">Участие в конференции <span class="big-text">бесплатное</span></div>
+          <a href="#registration" class="button button--color margin-top-sm">
+            <span class="button__text">Принять участие</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="speakers container">
+        <div class="speakers__content content">
+          <div class="headgroup">
+            <div class="headgroup__label">Спикер</div>
+          </div>
+          <div class="headline margin-top-lg">Вадим Берензон</div>
+          <div class="speakers__text">Менеджер по работе с ключевыми клиентами</div>
+        </div>
+      </section>
+      <!-- <img class="background" src="assets" alt="" /> -->
+
+      <a id="registration"></a>
+      <section class="container">
+        <div class="content">
+          <form class="form" id="main-form" action="#">
+            <div class="headgroup">
+              <div class="headgroup__label margin-bottom-xl">Регистрация</div>
+            </div>
+            <div class="form__wrapper">
+              <div class="form__inputs">
+                <div class="form__item">
+                  <label for="name" class="form__label">Имя</label>
+                  <input type="text" class="form__input" placeholder="" name="name" required />
+                  <div class="error-message" style="display: none"></div>
+                </div>
+                <div class="form__item">
+                  <label for="surname" class="form__label">Фамилия</label>
+                  <input type="text" class="form__input" placeholder="" name="surname" required />
+                  <div class="error-message" style="display: none"></div>
+                </div>
+                <div class="form__item">
+                  <label for="email" class="form__label">Почта</label>
+                  <input type="email" class="form__input" placeholder="" name="email" required />
+                  <div class="error-message" style="display: none"></div>
+                </div>
+                <div class="form__item">
+                  <label for="phone" class="form__label">Телефон</label>
+                  <input type="tel" class="form__input" placeholder="" name="phone" required />
+                  <div class="error-message" style="display: none"></div>
+                </div>
+                <div class="form__item">
+                  <label for="company" class="form__label">Название организации</label>
+                  <input type="text" class="form__input" placeholder="" name="company" />
+                  <div class="error-message" style="display: none"></div>
+                </div>
+                <div class="form__item">
+                  <label for="job" class="form__label">Должность</label>
+                  <input type="text" class="form__input" placeholder="" name="position" />
+                  <div class="error-message" style="display: none"></div>
+                </div>
+                <div class="form__item">
+                  <label for="taxId" class="form__label">ИНН</label>
+                  <input type="number" class="form__input" placeholder="" name="taxId" />
+                  <div class="error-message" style="display: none"></div>
+                </div>
+              </div>
+              <div class="form__item form__item--checkbox">
+                <input type="checkbox" id="privacy-policy" name="privacy-policy" class="form__checkbox" required />
+                <label for="privacy-policy" class="form__checkbox-label">Я согласен на обработку <a href="#" style="font-weight: 700">персональных данных</a></label>
+                <div class="error-message" style="display: none"></div>
+              </div>
+              <button type="submit" class="form__button button button--color">
+                <span class="button__text">Принять участие</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <div class="footer__content padding-bottom-xl padding-top-xl content">
+        <div class="footer__item">
+          <a href="https://www.xcom.ru/" class="logo">
+            <img class="footer__logo-img" src="./assets/images/logo.svg" alt="XCOM" />
+          </a>
+        </div>
+        <div class="footer__item">
+          <div class="group group--mobile">
+            <div class="text text--start text--full">
+              <span class="text-base text-base--normal">Контакты</span>
+              <a href="tel:+74952236339">+7 (495) 223-63-39 (Москва)</a>
+              <a href="tel:+78127401120">+7 (812) 740-11-20 (Санкт-Петербург)</a>
+            </div>
+            <div class="text text--start text--full">
+              <span class="text-base text-base--normal">Обратная связь</span>
+              <a href="tel:+74952236339">+7 (495) 223-63-39 (Москва)</a>
+              <a href="tel:+78127401120">+7 (812) 740-11-20 (Санкт-Петербург)</a>
+              <div class="group">
+                <a href="#"><img src="./assets/images/tg.svg" alt="" /></a>
+                <a href="#"><img src="./assets/images/vk.svg" alt="" /></a>
+                <a href="#"><img src="./assets/images/mail.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="text text--start text--full text--max-width">
+              <a href="#" class="link">Политика конфиденциальности</a>
+            </div>
+            <div class="text text--start text--full text--max-width" style="margin-top: 20vh">
+              Использование материалов, размещенных на сайте, допускается только с письменного разрешения «ООО М-ИНВЕСТ»
+            </div>
+            <div class="text text--start text--full text--max-width">2024 © «ООО М-ИНВЕСТ». Все права защищены.</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal animate__animated" style="display: none">
+      <div class="modal__window animate__animated">
+        <div class="modal__close">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="modal__content">
+          <p class="modal__headline"></p>
+          <p class="modal__text"></p>
+          <a class="modal__button button button--color"> </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

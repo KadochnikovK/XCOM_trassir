@@ -1,0 +1,16 @@
+.speakers {
+    background: url(./images/background.png) center/cover no-repeat;
+
+    * {
+        color: var(--color-white);
+    }
+
+    &__content {
+        gap: var(--size-xxxs);
+    }
+
+    &__text {
+        font-size: var(--size-xs);
+        font-weight: 600;
+    }
+}
