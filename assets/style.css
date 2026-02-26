@@ -831,11 +831,10 @@ summary {
   transition: all 0.2s ease;
   padding: 1rem 1.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  text-shadow: 0 0 0 rgba(87, 132, 230, 0);
 }
 .header__link:hover {
-  color: #7fa7ff;
-  text-shadow: 0 0 30px rgba(87, 132, 230, 0.5), 0 0 50px rgba(87, 132, 230, 0.7);
+  color: var(--color-grey-light);
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.5), 0 0 50px rgba(255, 255, 255, 0.7);
 }
 .header__link:last-child {
   border-bottom: none;
